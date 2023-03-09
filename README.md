@@ -5,7 +5,7 @@ This repo is a scratch pad for exploring OpenAI's Triton
 
 ```
 sudo docker pull joehoover/kernl:latest
-
+git clone https://github.com/joehoover/triton-materials.git
 sudo docker run --rm -it --gpus all -v $(pwd):/triton-materials joehoover88/kernl:latest
 ```
 
