@@ -3,6 +3,12 @@ This repo is a scratch pad for exploring OpenAI's Triton
 
 # Notes
 
+```
+sudo docker pull joehoover/kernl:latest
+
+sudo docker run --rm -it --gpus all -v $(pwd):/triton-materials joehoover88/kernl:latest
+```
+
 ## Installation
 
 Lambda Cloud instance had a stale version of Triton. This (issue)[https://github.com/openai/triton/issues/625
