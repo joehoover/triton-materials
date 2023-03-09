@@ -14,6 +14,8 @@ pip install --pre -U triton
 
 ## Useful Links
 
+[CUDA refresher series](https://developer.nvidia.com/blog/tag/cuda-refresher/)
+
 Triton-lang (introduction)[https://triton-lang.org/master/programming-guide/chapter-1/introduction.html]
 
 https://analyticssteps.com/blogs/openai-triton-programming-language-neural-networks
