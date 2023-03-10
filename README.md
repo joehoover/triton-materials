@@ -18,7 +18,7 @@ Now you'll be able to initialize a remote session in the container. But, first:
 ```
 sudo docker pull joehoover/kernl:latest
 git clone https://github.com/joehoover/triton-materials.git
-sudo docker run --rm -it --gpus all -v $(pwd):/triton-materials joehoover88/kernl:latest
+sudo docker run --rm -it --gpus all -v $(pwd):/triton-materials joehoover/kernl:latest
 ```
 
 ## Installation
