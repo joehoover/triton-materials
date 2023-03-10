@@ -3,6 +3,18 @@ This repo is a scratch pad for exploring OpenAI's Triton
 
 # Notes
 
+Remote development in a Docker container on Lambda Cloud with VS Code:
+
+First, you need to add your user to the docker group:
+
+```
+sudo usermod -aG docker $USER
+```
+
+Then, close and reopent the VS code connection. 
+
+Now you'll be able to initialize a remote session in the container. But, first:
+
 ```
 sudo docker pull joehoover/kernl:latest
 git clone https://github.com/joehoover/triton-materials.git
